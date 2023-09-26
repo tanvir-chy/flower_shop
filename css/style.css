@@ -47,16 +47,16 @@ header {
     align-items: center;
     justify-content: space-between;
     gap: 100px;
-    padding: 0 150px;
+    padding: 0 170px;
 }
 
-.column-left h1 {
+.hero-content h1 {
     color: #272727;
     font-size: 70px;
     font-weight: 800;
 }
 
-.column-left p {
+.hero-content p {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
@@ -148,7 +148,7 @@ header {
     align-items: center;
     justify-content: space-between;
     gap: 150px;
-    padding: 100px 190px;
+    padding: 100px 170px;
 }
 
 .deal-contents h2 {
@@ -215,12 +215,30 @@ header {
     margin-right: 10px;
 }
 
+/* Contact Us */
+
+.contact-us .inner-section {
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.contact-info {
+    padding: 50px;
+}
+
+.contact-us button {
+    margin-right: 50px;
+}
+
 /* Footer */
 
 footer {
     background-color: #111010;
     text-align: center;
-    margin-top: 130px;
     padding: 130px 0px;
 }
 
@@ -242,4 +260,4 @@ footer {
     color: rgba(255, 255, 255, 0.40);
     font-size: 16px;
     font-weight: 400;
-}
+}           
